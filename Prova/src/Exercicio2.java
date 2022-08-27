@@ -8,9 +8,10 @@ public class Exercicio2 {
 		double aumento =0.015;
 	
 		
-		for (int i=0; i<=25;i++) {
-			aumento= 0.015 *2;
+		for (int i=0; i<27;i++) {
+			
 			salario= salario +(salario * aumento);
+			aumento= aumento *2;
 		}
 		
 		System.out.println("O salário do funcionário em 2022 será de R$ " + salario);
@@ -18,3 +19,4 @@ public class Exercicio2 {
 	}
 
 }
+//

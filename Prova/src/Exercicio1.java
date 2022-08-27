@@ -46,7 +46,7 @@ public class Exercicio1 {
 		System.out.println("O maior número digitado é igual a: "+maior);
 		System.out.println("O menor número digitado é igual a: "+menor);
 		
-		
+		//função array.sort
 		
 	}
 
